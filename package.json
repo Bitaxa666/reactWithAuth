@@ -35,5 +35,6 @@
     "eject": "react-scripts eject",
     "lint": "eslint src"
   },
-  "proxy": "http://localhost:8099"
+  "proxy": "http://localhost:8099",
+  "secure": false
 }
