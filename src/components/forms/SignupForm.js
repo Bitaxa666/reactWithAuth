@@ -7,7 +7,7 @@ import isEmail from 'validator/lib/isEmail';
 import InlineError from '../../messages/InlineError';
 import PropTypes from 'prop-types';
 
-
+/* eslint-disable */
 class SignupForm extends React.Component {
     state = {
         data: {

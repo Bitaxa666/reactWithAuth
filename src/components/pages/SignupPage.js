@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import SignupForm from '../forms/SignupForm';
 import { signup } from '../../actions/users'
 
+/* eslint-disable */
 class SignupPage extends React.Component {
 
     submit = data => this.props.signup(data).then(() => this.props.history.push('/dashboard'));

@@ -7,7 +7,7 @@ import Validator from 'validator';
 import InlineError from '../../messages/InlineError';
 import PropTypes from 'prop-types';
 
-
+/* eslint-disable */
 class LoginForm extends React.Component {
     state = {
         data: {
